@@ -1,0 +1,128 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body{
+    background-color: rgb(82, 245, 191);
+    background-image: url(imagens/wallpaper001.jpg);
+}
+h1.primeiro{
+    font-family: "Libre Baskerville", serif;
+    padding: 300px;
+    max-width: 600px;
+    
+}
+h1{
+    text-align: center;
+    border-radius: 20px; 
+    border: 1px solid black;
+}
+h1 > a{
+    color: white;
+    font-size: 80px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1#img01{
+   
+    background-image: url(imagens/paisagem.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
+   width: 400px;
+   height: auto;
+   margin:auto;
+   
+}
+h1.segundo{
+    font-family: "Playwrite CU", cursive;
+    padding: 300px;
+    max-width: 600px;
+    font-weight: 200;
+}
+h1#img02{
+    
+    background-image: url(imagens/paisagem03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+   background-attachment: fixed;
+   width: 400px;
+   height: auto;
+   margin:auto;
+}
+h1.terceiro{
+    padding: 300px;
+}
+h1#img03{
+    background-image: url(imagens/paisagem04.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
+   width: 400px;
+   height: auto;
+   margin:auto;
+   display: block;
+}
+h1.quarto{
+    padding: 300px;
+    text-align: center;
+    font-family:"Space Mono", monospace; ;
+}
+h1#img04{
+    background-image: url(imagens/imagem05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
+   width: 400px;
+   height: auto;
+   margin:auto;
+   display: block;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+a{
+    color: rgb(2, 154, 201);
+    text-decoration: none;
+}
+p{
+ background-color: rgb(202, 202, 202); width: 800px;
+ color: rgb(31, 31, 31);
+ text-align: center;
+padding: 10px;
+font-size:40px;
+border-radius: 20px;
+border: 1px solid black;
+margin: 0 auto;
+font-family: "Libre Baskerville", serif;
+}
+span.verde{
+    color: rgb(0, 167, 0);
+}
+span.branco{
+    color: white;
+}
+span.vermelho{
+    color: red;
+}
+span.azul{
+    color: rgba(0, 152, 253, 0.644);
+}
+span.laranja{
+    color: rgba(190, 123, 0, 0.712);
+}
+span.amarelo{
+    color: rgb(167, 179, 0);
+}
